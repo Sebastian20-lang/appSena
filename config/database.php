@@ -3,7 +3,7 @@
 $server = "tcp:tinoco-mipresario.database.windows.net,1433";
 $database = "Crudimplementrio";
 $user = "Landaa";
-$pass = "{your_password_here}";
+$pass = "SenatiETI@2026";
 
 try {
     $pdo = new PDO("sqlsrv:server=$server;Database=$database", $user, $pass);
